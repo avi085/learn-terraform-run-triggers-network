@@ -9,7 +9,7 @@ data "aws_availability_zones" "available" {
   state = "available"
 
   filter {
-    name   = "opt-in-status"
+    name   = "opt-in-status1"
     values = ["opt-in-not-required"]
   }
 }
